@@ -8,7 +8,7 @@ var data = [{
   "xdahero2":"https://forum.xda-developers.com/s7-edge/development/9-0-resurrection-remix-v7-0-t3891229",
   "telegram":"https://t.me/resurrectionremixchat",
   "website":"https://www.resurrectionremix.com/",
-  "github":null,
+  "github":"https://github.com/ResurrectionRemix/",
   "changelog":[
     {"version":"v7.0.2-20190706", "changes":["July patch merged", "NFC hal prop replaced (Should resolve nfc turning on issues)", "AudioFX gone once again!", "Misc stuff blah blah blah all the usuals"]},
     {"version":"v7.0.2-20190605", "changes":["Updated vendor May security patch", "Removed unused gralloc usage bits flag", "Misc performance and stability changes"]},
