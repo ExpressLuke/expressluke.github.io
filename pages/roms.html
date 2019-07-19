@@ -233,5 +233,57 @@
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-	</body>
+	
+    <!-- Import data.js -->
+    <script src="/data.js"></script>
+    <script type="text/javascript">
+$('#downloadModal').on('show.bs.modal', function (event) {
+  $('#changelog').collapse('hide');
+  var button = $(event.relatedTarget);
+  var id = button.data('id');
+  var modal = $(this);
+  modal.find('.modal-title').text('Download ' + data[id].name);
+  $('#downloadLabel').text('Download links for latest release of ' + data[id].name + ' for Galaxy S7 and Galaxy S7 Edge');
+  $('#herolte').attr('href', data[id].herolink);
+  $('#hero2lte').attr('href', data[id].hero2link);
+  if (!data[id].md5hero || !data[id].md5hero2) {
+    $('#md5').hide();
+  } else {
+    $('#md5').show();
+    $('#md5hero').text('md5sum: ' + data[id].md5hero);
+    $('#md5hero2').text('md5sum: ' + data[id].md5hero2);
+  };
+  if (!data[id].changelog) {
+    $('#changelog-group').hide();
+  } else {
+    $('#changelog-group').show();
+    var result = "<ul>";
+    $.each(data[id].changelog, function(key, val) {
+      result += "<li>" + val.version + "<ul>";
+      $.each(val.changes, function(subkey, subval) {
+        result += "<li>" + subval + "</li>";
+      });
+      result += "</ul></li>"
+    });
+    result += "</ul>";
+    $('#changes-div').html(result);
+  };
+})
+$('#moreModal').on('show.bs.modal', function (event) {
+  var button = $(event.relatedTarget);
+  var id = button.data('id');
+  var modal = $(this);
+  modal.find('.modal-title').text('Info and support for ' + data[id].name);
+  $('#telegram').attr('href', data[id].telegram);
+  $('#site').attr('href', data[id].website);
+  if (!data[id].xdahero || !data[id].xdahero2) {
+    $('#xdagroup').hide();
+  } else {
+    $('#xdagroup').show();
+    $('#xdahero').attr('href', data[id].xdahero);
+    $('#xdahero2').attr('href', data[id].xdahero2);
+  }
+})
+    </script>
+</body>
 </html>
