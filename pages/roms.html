@@ -70,7 +70,7 @@
 			<p class="card-text italictext">Official release</p>
 
 	<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#downloadModal" data-id="0"><i class="fas fa-download"></i></button>
-	<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#moreModal" data-id="0"><i class="fas fa-info-circle"></i></button>
+	<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#infoModal" data-id="0"><i class="fas fa-info-circle"></i></button>
 
 		  </div>
 		</div>
@@ -83,7 +83,7 @@
 			<p class="card-text italictext">Official release</p>
 
 	<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#downloadModal" data-id="1"><i class="fas fa-download"></i></button>
-	<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#moreModal" data-id="1"><i class="fas fa-info-circle"></i></button>
+	<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#infoModal" data-id="1"><i class="fas fa-info-circle"></i></button>
 		  </div>
 		</div>
 	  </div>
@@ -215,7 +215,7 @@
   <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
     <div class="modal-content text-white bg-dark">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">*ROM NAME* </h5>
+        <h5 class="modal-title">*ROM NAME* </h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <i class="far fa-times-circle text-white"></i>
         </button>
@@ -280,7 +280,7 @@
 		$('#changes-div').html(result);
 	  };
 	})
-	$('#moreModal').on('show.bs.modal', function (event) {
+	$('#infoModal').on('show.bs.modal', function (event) {
 	  var button = $(event.relatedTarget);
 	  var id = button.data('id');
 	  var modal = $(this);
