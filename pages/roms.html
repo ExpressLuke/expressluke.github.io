@@ -178,7 +178,7 @@
         </button>
       </div>
       <div class="modal-body">
-      <h6 class="italictext">Download links for latest release of *ROM Name* for Galaxy S7 and Galaxy S7 Edge</h6>
+      <h6 class="italictext" id="downloadLabel"></h6>
 	  <hr>
 	  <h5>Galaxy S7</h5>
 	  <code> md5sum:</code>
@@ -190,8 +190,8 @@
       </div>
       <div class="modal-footer">
         
-        <button type="button" class="btn btn-primary"><i class="fas fa-download"></i> Galaxy S7</button>
-		<button type="button" class="btn btn-primary"><i class="fas fa-download"></i> Galaxy S7 edge</button>
+        <a href="#" class="btn btn-primary" id="herolte"><i class="fas fa-download"></i> Galaxy S7</a>
+		<a href="#" class="btn btn-primary" id="hero2lte"><i class="fas fa-download"></i> Galaxy S7 edge</a>
 
       </div>
     </div>
@@ -243,7 +243,7 @@ $('#downloadModal').on('show.bs.modal', function (event) {
   var id = button.data('id');
   var modal = $(this);
   modal.find('.modal-title').text('Download ' + data[id].name);
-  $('#downloadLabel').text('Download l2inks for latest release of ' + data[id].name + ' for Galaxy S7 and Galaxy S7 Edge');
+  $('#downloadLabel').text('Download links for latest release of ' + data[id].name + ' for Galaxy S7 and Galaxy S7 Edge');
   $('#herolte').attr('href', data[id].herolink);
   $('#hero2lte').attr('href', data[id].hero2link);
   if (!data[id].md5hero || !data[id].md5hero2) {
