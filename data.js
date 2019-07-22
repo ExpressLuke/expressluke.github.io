@@ -22,6 +22,7 @@ var data = [{
   "md5hero2":"d0b210371152d5d16cc3ef9dde8dece2",
   "xdahero":null,
   "xdahero2":null,
+  "github":"https://github.com/evolution-x/",
   "telegram":"https://t.me/EvolutionXNews",
   "website":"https://evolutionx.ml/",
   "changelog":[
@@ -36,6 +37,7 @@ var data = [{
   "xdahero":"https://forum.xda-developers.com/galaxy-s7/development/rom-cosp-t3892551",
   "xdahero2":"https://forum.xda-developers.com/s7-edge/development/rom-cosp-t3892527",
   "telegram":"https://t.me/cospcommunity",
+  "github":"https://github.com/cosp-project/"
   "website":"https://github.com/cosp-project"
 }, {
   "name":"Pixel Experience",
@@ -46,6 +48,7 @@ var data = [{
   "xdahero":"https://forum.xda-developers.com/galaxy-s7/development/rom-pixel-experience-t3773987",
   "xdahero2":"https://forum.xda-developers.com/s7-edge/development/rom-pixel-experience-t3773983",
   "telegram":"https://t.me/pixelexperiencechat",
+  "github":"https://github.com/PixelExperience",
   "website":"https://download.pixelexperience.org/"
 }, {
   "name":"crDroid",
@@ -56,6 +59,7 @@ var data = [{
   "xdahero":"https://forum.xda-developers.com/galaxy-s7/development/crdroid-4-0-herolte-t3750760",
   "xdahero2":"https://forum.xda-developers.com/s7-edge/development/crdroid-4-0-hero2lte-t3750750",
   "telegram":"https://t.me/crDroidAndroid",
+  "github":"https://github.com/crDroidAndroid",
   "website":"https://crdroid.net/"
 }, {
   "name":"ViperOS",
@@ -66,6 +70,7 @@ var data = [{
   "xdahero":"https://forum.xda-developers.com/galaxy-s7/development/9-0-viperos-t3902922",
   "xdahero2":"https://forum.xda-developers.com/s7-edge/development/9-0-viper-os-t3901902",
   "telegram":"https://t.me/viperos_chat",
+  "github":"https://github.com/ViperOS",
   "website":"https://sourceforge.net/projects/viper-project/"
 }, {
   "name":"AOSP Extended",
@@ -76,6 +81,7 @@ var data = [{
   "xdahero":"https://forum.xda-developers.com/galaxy-s7/development/rom-aospextended-rom-v6-4-t3923082",
   "xdahero2":"https://forum.xda-developers.com/s7-edge/development/rom-aospextended-rom-v6-4-t3923068",
   "telegram":"https://t.me/aospextendedgroup",
+  "github":"https://github.com/AOSPExtended",
   "website":"https://www.aospextended.com/"
 }, {
   "name":"SuperiorOS",
@@ -86,5 +92,6 @@ var data = [{
   "xdahero":"https://forum.xda-developers.com/galaxy-s7/development/rom-superioros-destructor-s7-t3897976",
   "xdahero2":"https://forum.xda-developers.com/s7-edge/development/rom-superioros-destructor-s7-edge-t3897975",
   "telegram":"https://t.me/superioros",
+  "github":"https://github.com/superioros",
   "website":"https://sourceforge.net/projects/superioros/"
 }];
