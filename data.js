@@ -10,9 +10,7 @@ var data = [{
   "website":"https://www.resurrectionremix.com/",
   "github":"https://github.com/ResurrectionRemix/",
   "changelog":[
-    {"version":"v7.0.2-20190706", "changes":["July patch merged", "NFC hal prop replaced (Should resolve nfc turning on issues)", "AudioFX gone once again!", "Misc stuff blah blah blah all the usuals"]},
-    {"version":"v7.0.2-20190605", "changes":["Updated vendor May security patch", "Removed unused gralloc usage bits flag", "Misc performance and stability changes"]},
-    {"version":"v7.0.2-20190510", "changes":["May Security Patch Merged", "Linux 3.18.139"]}
+    {"version":"v7.0.2-20190719", "changes":["Initial Changelog"]}
   ]
 }, {
   "name":"Evolution-X",
@@ -26,7 +24,7 @@ var data = [{
   "telegram":"https://t.me/EvolutionXNews",
   "website":"https://evolutionx.ml/",
   "changelog":[
-    {"version":"2.0-060702019", "changes":["Initial release"]}
+    {"version":"v9.0-20190708", "changes":["Initial Changelog"]}
   ]
 }, {
   "name":"Clean Open Source Project",
@@ -38,7 +36,11 @@ var data = [{
   "xdahero2":"https://forum.xda-developers.com/s7-edge/development/rom-cosp-t3892527",
   "telegram":"https://t.me/cospcommunity",
   "github":"https://github.com/cosp-project/",
-  "website":"https://cosp-project.org/"
+  "website":"https://cosp-project.org/",
+  "changelog":[
+    {"version":"v9.0-20190702", "changes":["Initial Changelog"]}
+  ]
+  
 }, {
   "name":"Pixel Experience",
   "herolink":"https://download.pixelexperience.org/herolte/",
@@ -49,7 +51,10 @@ var data = [{
   "xdahero2":"https://forum.xda-developers.com/s7-edge/development/rom-pixel-experience-t3773983",
   "telegram":"https://t.me/pixelexperiencechat",
   "github":"https://github.com/PixelExperience",
-  "website":"https://download.pixelexperience.org/"
+  "website":"https://download.pixelexperience.org/",
+  "changelog":[
+    {"version":"v9.0-20190604", "changes":["Initial Changelog"]}
+  ]
 }, {
   "name":"crDroid",
   "herolink":"https://crdroid.net/herolte",
@@ -60,7 +65,10 @@ var data = [{
   "xdahero2":"https://forum.xda-developers.com/s7-edge/development/crdroid-4-0-hero2lte-t3750750",
   "telegram":"https://t.me/crDroidAndroid",
   "github":"https://github.com/crDroidAndroid",
-  "website":"https://crdroid.net/"
+  "website":"https://crdroid.net/",
+  "changelog":[
+    {"version":"v5.6-20190707", "changes":["Initial Changelog"]}
+  ]
 }, {
   "name":"ViperOS",
   "herolink":"https://sourceforge.net/projects/viper-project/files/herolte/",
@@ -71,7 +79,10 @@ var data = [{
   "xdahero2":"https://forum.xda-developers.com/s7-edge/development/9-0-viper-os-t3901902",
   "telegram":"https://t.me/viperos_chat",
   "github":"https://github.com/ViperOS",
-  "website":"https://viperos.gitlab.io/"
+  "website":"https://viperos.gitlab.io/",
+  "changelog":[
+    {"version":"v6.4-20190528", "changes":["Initial Changelog"]}
+  ]
 }, {
   "name":"AOSP Extended",
   "herolink":"https://drive.google.com/a/zonc.eu/uc?id=1vpapZr54S0RvzQqznMuKzwY8kLm6LAXS&export=download",
@@ -82,7 +93,10 @@ var data = [{
   "xdahero2":"https://forum.xda-developers.com/s7-edge/development/rom-aospextended-rom-v6-4-t3923068",
   "telegram":"https://t.me/aospextendedgroup",
   "github":"https://github.com/AOSPExtended",
-  "website":"https://www.aospextended.com/"
+  "website":"https://www.aospextended.com/",
+  "changelog":[
+    {"version":"v6.6-20190704", "changes":["Initial Changelog"]}
+  ]
 }, {
   "name":"SuperiorOS",
   "herolink":"https://sourceforge.net/projects/developerluke-roms/files/Superior-OS/herolte/",
@@ -93,5 +107,8 @@ var data = [{
   "xdahero2":"https://forum.xda-developers.com/s7-edge/development/rom-superioros-destructor-s7-edge-t3897975",
   "telegram":"https://t.me/superioros",
   "github":"https://github.com/superioros",
-  "website":"https://superioros.github.io/"
+  "website":"https://superioros.github.io/",
+  "changelog":[
+    {"version":"vNemesis-20190420", "changes":["Initial Changelog"]}
+  ]
 }];
