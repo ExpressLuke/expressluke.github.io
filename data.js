@@ -16,8 +16,8 @@ var data = [{
   ]
 }, {
   "name":"Evolution-X",
-  "herolink":"https://drive.google.com/a/zonc.eu/uc?id=1jkgpUovNYp5Z8WesoRzSPhBhpOrw9P6k&export=download",
-  "hero2link":"https://drive.google.com/a/zonc.eu/uc?id=1KRvLQhY4TY-ysLb93yJXxVfHXFi1TMDq&export=download",
+  "herolink":"https://sourceforge.net/projects/evolution-x/files/herolte/",
+  "hero2link":"https://sourceforge.net/projects/evolution-x/files/hero2lte/",
   "md5hero":"0f70251aa3b1c8ef2deddab41ceee3f6",
   "md5hero2":"d0b210371152d5d16cc3ef9dde8dece2",
   "xdahero":null,
@@ -38,7 +38,7 @@ var data = [{
   "xdahero2":"https://forum.xda-developers.com/s7-edge/development/rom-cosp-t3892527",
   "telegram":"https://t.me/cospcommunity",
   "github":"https://github.com/cosp-project/",
-  "website":"https://github.com/cosp-project"
+  "website":"https://cosp-project.org/"
 }, {
   "name":"Pixel Experience",
   "herolink":"https://download.pixelexperience.org/herolte/",
@@ -71,7 +71,7 @@ var data = [{
   "xdahero2":"https://forum.xda-developers.com/s7-edge/development/9-0-viper-os-t3901902",
   "telegram":"https://t.me/viperos_chat",
   "github":"https://github.com/ViperOS",
-  "website":"https://sourceforge.net/projects/viper-project/"
+  "website":"https://viperos.gitlab.io/"
 }, {
   "name":"AOSP Extended",
   "herolink":"https://drive.google.com/a/zonc.eu/uc?id=1vpapZr54S0RvzQqznMuKzwY8kLm6LAXS&export=download",
@@ -93,5 +93,5 @@ var data = [{
   "xdahero2":"https://forum.xda-developers.com/s7-edge/development/rom-superioros-destructor-s7-edge-t3897975",
   "telegram":"https://t.me/superioros",
   "github":"https://github.com/superioros",
-  "website":"https://sourceforge.net/projects/superioros/"
+  "website":"https://superioros.github.io/"
 }];
