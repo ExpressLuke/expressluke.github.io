@@ -37,7 +37,7 @@ var data = [{
   "xdahero":"https://forum.xda-developers.com/galaxy-s7/development/rom-cosp-t3892551",
   "xdahero2":"https://forum.xda-developers.com/s7-edge/development/rom-cosp-t3892527",
   "telegram":"https://t.me/cospcommunity",
-  "github":"https://github.com/cosp-project/"
+  "github":"https://github.com/cosp-project/",
   "website":"https://github.com/cosp-project"
 }, {
   "name":"Pixel Experience",
