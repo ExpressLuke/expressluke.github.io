@@ -16,14 +16,15 @@ var data = [{
   "name":"Evolution-X",
   "herolink":"https://sourceforge.net/projects/evolution-x/files/herolte/",
   "hero2link":"https://sourceforge.net/projects/evolution-x/files/hero2lte/",
-  "md5hero":"1f6da4504551ef3c7f0a93df67ac50c2",
-  "md5hero2":"a5b5a2e92be634ad0c5fc19cca0e6155",
+  "md5hero":"e8d9c7967599fde639e8331806dd313a",
+  "md5hero2":"d34dd0b037b31926b8ea87bf12570df6",
   "xdahero":"https://forum.xda-developers.com/galaxy-s7/development/evolution-x-pie-herolte-hero2lte-t3946515",
   "xdahero2":"https://forum.xda-developers.com/s7-edge/development/evolution-x-pie-herolte-hero2lte-t3946514",
   "github":"https://github.com/evolution-x/",
   "telegram":"https://t.me/EvolutionXNews",
   "website":"https://evolutionx.ml/",
   "changelog":[
+    {"version":"v9.0-20190726", "changes":["Please refer to https://bit.ly/2K6N5JO"]},
     {"version":"v9.0-20190708", "changes":["Initial Changelog"]}
   ]
 }, {
