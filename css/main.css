@@ -12,3 +12,7 @@ body {
 .copy {
   font-size: 14pt;
 }
+
+.holo {
+    border: 1px solid #33b5e5;
+}
