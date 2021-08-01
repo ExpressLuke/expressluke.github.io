@@ -37,3 +37,40 @@ a:hover {
 a:active {
   text-decoration: none;
 }
+
+
+.xda:hover path {
+    fill: #f59812;
+    transition: 0.3s;
+}
+.xda:active path {
+    fill: #f59812
+}
+.github:hover path {
+    fill: #6e5494;
+    transition: 0.3s;
+}
+.github:active path {
+    fill: #6e5494
+}
+.gitlab:hover path {
+    fill: #E24329;
+    transition: 0.3s;
+}
+.gitlab:active path {
+    fill: #E24329
+}
+.paypal:hover path {
+    fill: #009BE1;
+    transition: 0.3s;
+}
+.paypal:active path {
+    fill: #009BE1
+}
+.telegram:hover path {
+    fill: #26AAE7;
+    transition: 0.3s;
+}
+.telegram:active path {
+    fill: #26AAE7
+}
