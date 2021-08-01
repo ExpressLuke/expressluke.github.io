@@ -11,7 +11,6 @@ body {
 
 .copy {
   font-size: 14pt;
-  text-decoration: none;
 }
 
 .holo {
@@ -21,4 +20,20 @@ body {
 .mt {
   text-align: center;
   color: #fff;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
 }
